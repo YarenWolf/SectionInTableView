@@ -36,7 +36,6 @@ class ViewController: UIViewController {
         // Register the custom header view.
         let nib = UINib(nibName: "CustomHeaderView", bundle: nil)
         tableView.register(nib, forHeaderFooterViewReuseIdentifier: "CustomHeaderView")
-//        tableView.register(CustomHeaderView.self, forHeaderFooterViewReuseIdentifier: "CustomHeaderView")
     }
 }
 
